@@ -8,11 +8,22 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
-<body>
+<body bgcolor="#2B4F6B">
     <form action="signo2.php" method="get">
-        <br><label for="lblData">Escolha uma data: </label>
+        <center><br><label for="lblData">Coloque sua data de Nascimento:</label>
+        <br>
         <input type="date" name="data">
-        <input type="submit">
-    </form>
+        <input type="submit" class="sub">
+    </center></form>
+    <style>
+        form{
+            color:#4988B8;
+            font-size: 36px;
+        }
+        .sub{
+            background-color:#A7CFEE;
+            align-items: center;
+        }
+    </style>
 </body>
 </html>
